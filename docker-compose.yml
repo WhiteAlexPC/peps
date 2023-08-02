@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  peps:
+    image: peps
+    build:
+      context: .
+      dockerfile: ./Dockerfile
